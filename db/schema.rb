@@ -15,7 +15,7 @@ ActiveRecord::Schema.define(version: 2021_07_07_140847) do
   create_table "pictures", force: :cascade do |t|
     t.string "title"
     t.integer "likes"
-    t.boolean "liked"
+    t.string "liked"
     t.integer "commentCount"
     t.string "address"
     t.integer "user_id", null: false
